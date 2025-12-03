@@ -1,6 +1,8 @@
 # Riptide
 Riptide ported as a Transport for Mirror
 
+<b>MAKE SURE TO REFERENCE THE RIPTIDE NETWORKING ASSEMBLY DEF IN THE MIRROR TRANSPORT ASSEMBLY DEF</b>
+
 ## Credits
 
 ### Mirror Networking
