@@ -139,15 +139,13 @@ namespace Mirror {
         ///
         /// Keep Riptide's peers running!
         ///
-        public override void ServerLateUpdate() {
-            if(enabled) 
-                Server.Update();
-        }
+       public void Update() {
+            if (!enabled) return;
 
-        public override void ClientLateUpdate() {
-            if (enabled)
-                Client.Update();
+            Server.Update();
+            Client.Update();
         }
+        
         public enum ServerToClientId : ushort {
             ServerMessage = 1,
         }
